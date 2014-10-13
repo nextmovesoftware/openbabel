@@ -63,7 +63,7 @@
 #define MAX_SET_SIZE 2048 /*16384*/
 #define MAX_LAYERS   7
 
-#define INFINITY       0x3FFF
+#define INFINITY       0x7FFF
 #define EMPTY_CT       0
 #define EMPTY_H_NUMBER (INFINITY-1)
 #define BASE_H_NUMBER  ((INFINITY-1)/2)

@@ -54,12 +54,12 @@ struct tagSaltChargeCandidate;
 
 /* define BNS types */
 
-typedef S_SHORT  Vertex;
-typedef S_SHORT  EdgeIndex;
-typedef S_SHORT  Edge[2];         /* Edge[0] = vertex1, Edge[1] = iedge or -(1+vertex1) if vertex2 = s or t */
-typedef S_SHORT BNS_IEDGE;
-typedef S_SHORT EdgeFlow;
-typedef S_SHORT VertexFlow;
+typedef int  Vertex;
+typedef int EdgeIndex;
+typedef int Edge[2];         /* Edge[0] = vertex1, Edge[1] = iedge or -(1+vertex1) if vertex2 = s or t */
+typedef int BNS_IEDGE;
+typedef int EdgeFlow;
+typedef int VertexFlow;
 
 
 #define BNS_EDGE_FORBIDDEN_MASK  1

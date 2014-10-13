@@ -172,7 +172,7 @@ int GetElementAndCount( const char **f, char *szEl, int *count )
         return -1; /*  not a chemical formula */
     }
     strcpy( szEl, "Zz" ); /*  zero termination 'element' is larger than any other element */
-    *count = 9999;        /*  zero termination 'element count' is larger than any other count */
+    *count = 999999;        /*  zero termination 'element count' is larger than any other count */
     return 0;
 }
 /**********************************************************************************************

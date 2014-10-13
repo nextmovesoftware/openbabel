@@ -197,7 +197,7 @@ static int GetINCHI1(inchi_Input *inp, inchi_Output *out, int bStdFormat)
     ORIG_ATOM_DATA PrepAtData[2]; /* 0=> disconnected, 1=> original */
     ORIG_ATOM_DATA *prep_inp_data = PrepAtData;
     int             bReleaseVersion = bRELEASE_VERSION;
-    const int nStrLen = 64000;
+    const int nStrLen = 640000;
     char *pStr = NULL;
     int   nRet = 0, nRet1;
 
