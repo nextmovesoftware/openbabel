@@ -726,6 +726,12 @@ char* InChIFormat::GetInChIOptions(OBConversion* pConv, bool Reading)
       string tmp2("RecMet");
       optsvec.push_back(tmp2);
     }
+    if(!pConv->IsOption("a", opttyp))
+    {
+      string tmp2("AuxNone");
+      optsvec.push_back(tmp2);
+    }
+
   }
 
 
